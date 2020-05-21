@@ -1,0 +1,30 @@
+int buzzerPin=6;
+int temperature;             
+int temperaturepin=A0;     
+
+void setup()
+{
+
+  
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  
+  
+ temperature = ((analogRead(temperaturepin) * 4.88)-500)/10;  
+  
+  if(temperature>35) 
+{  
+     tone(buzzerPin,400);
+
+  }
+  else
+  { 
+    noTone(buzzerPin);
+  }
+  Serial.print(temperature);
+  Serial.println(" C ");
+ 
+}
