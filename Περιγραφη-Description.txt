@@ -1,0 +1,28 @@
+
+
+Πειγραφη:
+
+
+Λοιπόν χρησιμοποιήσαμε την πλατφόρμα στην ιστοσελίδα του Tinkecad έτσι
+ώστε να φτιάξουμε και προσομοιώσουμε το πρόγραμμα του Arduino μας. Όπως θα δείτε 
+τα εξαρτήματα που χρησιμοποιήσαμε για το κύκλωμα μας είναι τα εξής :Arduino uno,breadboard,καλωδια,αντιστατη, βομβητή καθώς και τον αισθητήρα θερμοκρασίας. 
+Το σύστημα μας είναι πολύ απλό θέλουμε με την αύξηση θερμοκρασίας που θα αισθανθεί ο αισθητήρας αν είναι πάνω από ένα όριο που έχουμε θέσει να  οδηγήσει να ηχεί
+ο βομβητής και έτσι να ακούγεται ένας συναγερμός οπού θα ειδοποιεί τους πυροσβέστες καθώς και τους γύρω ανθρώπους ότι υπάρχει ενδεχόμενο πυρκαγιας.Οπως γίνεται 
+αντιληπτό για να γίνει στην πράξη όλο αυτό πρέπει να περάσουμε και ένα κώδικα στο Arduino οπού αυτός θα είναι η πηγή και λειτουργεία όλου αυτού του συστηματος.
+Οπως θα δείτε ο κώδικας μας είναι πολύ απλός έχουμε της μεταβλητές για την θερμοκρασία  οπού θα επηρεάζονται καθαρά από τον αισθητήρα θερμοκρασίας 
+, και θα τυπώνεται η θερμοκρασία του αισθητήρα την εκάστοτε ώρα κάτω στην οθόνη αλλά το πιο σημαντικό όταν αισθανθεί οποιαδήποτε στιγμή μια θερμοκρασία που είναι
+μεγαλύτερη από το όριο που του θέσαμε θα δώσει εντολή στον βομβητή να αρχίσει να ηχειται.
+
+
+
+Description:
+
+
+So we used the platform on the Tinkecad website to create and simulate our Arduino program. 
+As you will see the components we used for our circuit are: Arduino uno, breadboard, cables, resistor, bomber as well as the temperature sensor. 
+Our system is very simple, we want to increase the temperature that the sensor will feel if it is above a limit that we have set to cause the bomber 
+to sound and thus sound an alarm where it will notify firefighters and the surrounding people that there is a possibility fire.As it is understood that
+in order for all this to happen, we have to pass a code to Arduino where this will be the source and function of this whole system.
+As you will see, our code is very simple. We have the variables for the temperature where they will be affected. 
+clean from the temperature sensor, and the temperature of the sensor will be printed at any time down on the screen 
+but most importantly when it feels at any time a temperature that is higher than the limit we set it will instruct the bomber n a begin to sound.
